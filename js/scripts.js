@@ -19,3 +19,14 @@ var number2 = parseInt(prompt("Please select your second number you want to add.
 
 var result = divide(number1, number2);
 alert(result);
+
+//BMI Calculator
+var divide = function(height, weight) {
+	return weight / height;
+}
+
+var weight = parseInt(prompt("What is your weight in LB."));
+var height = parseInt(prompt("Whats your height in inches?"));
+var height = height * height;
+var result = divide(weight, height);
+alert("Your BMI is " + result);
