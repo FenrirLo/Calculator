@@ -30,3 +30,12 @@ var height = parseInt(prompt("Whats your height in inches?"));
 var height = height * height;
 var result = divide(weight, height);
 alert("Your BMI is " + result);
+
+//Convertion Calc for F to C - works without function but WHY?
+function celcius(celcius) {
+	return (celcius);
+};
+
+var F = prompt("What is the temp in degrees Farenheit?");
+var F = ((F - 32) * (5 / 9));
+alert("The tempature in Celcius is " + F);
